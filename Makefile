@@ -8,7 +8,7 @@ K = \033[K#       ERASE END OF LINE
 D = \033[0m#      DEFAULT
 A = \007#         BEEP
 
-APP=$(shell basename $(shell git remote get-url origin))
+APP=$(shell basename -s .git $(shell git remote get-url origin))
 REGISTRY=gcr.io/devops-prom
 VERSION=$(shell git describe --tags --abbrev=0)-$(shell git rev-parse --short HEAD)
 TARGETARCH=amd64
