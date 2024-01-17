@@ -4,7 +4,8 @@
 
 replicaCount: 1
 image:
-  repository: ghcr.io/devops-prom
+  registry: "ghcr.io"
+  repository: "obezsmertnyi/kbot"
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "v1.0.2-9a9944a"
