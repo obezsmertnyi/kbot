@@ -3,12 +3,11 @@
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
-
 image:
   repository: ghcr.io/devops-prom
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.0.2-77afe4c"
+  tag: "v1.0.2-9a9944a"
   arch: amd64
   os: linux
 secret:
