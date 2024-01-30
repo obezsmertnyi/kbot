@@ -20,3 +20,4 @@ securityContext:
   privileged: true
 namespace:
   name: prod
+  
