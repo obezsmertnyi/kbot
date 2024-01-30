@@ -8,7 +8,7 @@ image:
   repository: "obezsmertnyi/kbot"
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "prehook-c406d18"
+  tag: "prehook-f80cbbf"
   arch: amd64
   os: linux
 secret:
