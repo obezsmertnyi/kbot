@@ -8,7 +8,7 @@ image:
   repository: "obezsmertnyi/kbot"
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.0.2-433f9b9"
+  tag: "v1.0.2-ed172ac"
   arch: amd64
   os: linux
 secret:
