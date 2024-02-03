@@ -18,5 +18,3 @@ secret:
   key: "token"
 securityContext:
   privileged: true
-namespace:
-  name: demo
